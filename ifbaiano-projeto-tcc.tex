@@ -1,0 +1,31 @@
+\documentclass[oneside]{configuracoes/ifbaiano-abntex2}
+\include{configuracoes/pacotes}										  
+\include{configuracoes/configuracoes-pdf}								 
+
+% INCLUI ARQUIVOS DO TRABALHO DE CONCLUSÃO DE CURSO (PRÉ-TEXTUAIS, TEXTUAIS, PÓS-TEXTUAIS)-----------------------
+
+% INSERE CAPA E FOLHA DE ROSTO
+\include{estrutura/pre-textuais/capa}
+\include{estrutura/pre-textuais/folha-rosto}
+\begin{document}
+\pretextual
+\imprimircapa
+\imprimirfolhaderosto{}                 						
+\include{estrutura/pre-textuais/resumo}
+\include{estrutura/pre-textuais/listas/listas-ilustracoes/lista-figuras}
+\include{estrutura/pre-textuais/listas/lista-tabelas}         	
+\include{estrutura/pre-textuais/sumario}               			  
+\textual
+\include{estrutura/textuais/introducao}
+\include{estrutura/textuais/definicao-problema}      
+\include{estrutura/textuais/revisao-literatura}      
+\include{estrutura/textuais/materiais-e-metodos}
+% \include{estrutura/textuais/justificativa}      
+\include{estrutura/textuais/objetivos}
+\include{estrutura/textuais/desenvolvimento/revisao-bibliografica-teorica} 
+\include{estrutura/textuais/desenvolvimento/metodologia}        
+\include{estrutura/textuais/desenvolvimento/resultadosesperados}
+\include{estrutura/textuais/cronograma} 						
+\postextual
+\include{estrutura/pos-textuais/referencias}           			  
+\end{document}
